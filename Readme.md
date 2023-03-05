@@ -18,6 +18,10 @@ git clone https://github.com/hiteshhedwig/to-tflite-edge
 git submodule update --init
 ```
 
+```
+./build.sh
+``
+
 ## Some heads up :
 - If you have an onnx model converted from pytorch model. Make sure you exported the onnx model in torch package <= 1.7
 - If you face some errors, try and see if you have non-simplified onnx model version. Simplified onnx version gives trouble
