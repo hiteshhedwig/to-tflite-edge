@@ -26,6 +26,12 @@ git submodule update --init
 ## Process :
 
 ### ONNX to PB :
+```
 onnx-tf convert -i "mobilenetv2.onnx" -o  "mobilenetv2.pb"
+```
 
 ### PB to Tflite:
+```
+python to_tflite.py "/path/to/pbmodel"
+
+```
