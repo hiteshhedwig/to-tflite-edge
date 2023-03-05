@@ -20,7 +20,7 @@ git submodule update --init
 
 ```
 ./build.sh
-``
+```
 
 ## Some heads up :
 - If you have an onnx model converted from pytorch model. Make sure you exported the onnx model in torch package <= 1.7
