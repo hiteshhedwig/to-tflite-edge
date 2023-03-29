@@ -1,4 +1,4 @@
-## Convert Any Model to TFLite 
+## How to Convert Any Model to TFLite (.tflite) 
 
 ## Let's get to the point :
 
